@@ -10,9 +10,9 @@
     <string name="black_button">Black</string>
     <string name="blue_button">Blue</string>
     <string name="reset_button">Reset\n</string>
-    <string name="redValue">64\n</string>
-    <string name="blueValue">128</string>
-    <string name="greenValue">0</string>
+    <string name="redValue">64</string>
+    <string name="greenValue">128</string>
+    <string name="blueValue">0</string>
     <string name="rgbValue"></string>
     <string name="HEX_value"></string>
 </resources>

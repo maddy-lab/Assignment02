@@ -44,9 +44,9 @@ public class MainActivity extends AppCompatActivity {
         redSeekbar=findViewById(R.id.redSeekbar);
         blueSeekbar=findViewById(R.id.blueSeekbar);
         greenSeekbar=findViewById(R.id.greenSeekbar);
-        redProgressValue=findViewById(R.id.redValue);
-        blueProgressValue=findViewById(R.id.blueValue);
-        greenProgressValue=findViewById(R.id.greenValue);
+        redProgressValue=findViewById(R.id.redValueTV);
+        blueProgressValue=findViewById(R.id.blueValueTV);
+        greenProgressValue=findViewById(R.id.greenValueTV);
 
         redSeekbar.setOnSeekBarChangeListener(new SeekBar.OnSeekBarChangeListener() {
             @Override
