@@ -1,3 +1,8 @@
+// ---------Assignment 02--------------//
+// ---------Madhan Mannem--------------//
+//----------Sai Snehitha Ravuru--------//
+//----------Group 14-------------------//
+
 package com.example.assignment02;
 
 import android.graphics.Color;
@@ -98,6 +103,7 @@ public class MainActivity extends AppCompatActivity {
         findViewById(R.id.black_button).setOnClickListener(view -> changeColor(0,0,0));
         findViewById(R.id.white_button).setOnClickListener(view -> changeColor(255,255,255));
         findViewById(R.id.blue_button).setOnClickListener(view -> changeColor(0,0,255));
+        updateColor();
     }
 
     private void updateColor()

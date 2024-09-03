@@ -13,6 +13,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
         android:text="@string/color_selection_title"
+        android:textSize="16sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -33,7 +34,7 @@
         android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="50dp"
+        android:layout_marginStart="130dp"
         android:layout_marginTop="16dp"
         android:text="@string/color_HEX"
         android:textStyle="bold"
@@ -44,7 +45,7 @@
         android:id="@+id/textView3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="48dp"
+        android:layout_marginStart="120dp"
         android:layout_marginTop="16dp"
         android:text="@string/color_RGB"
         android:textStyle="bold"
@@ -56,6 +57,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="10dp"
+        android:layout_marginTop="7dp"
         android:text="@string/red_Textview"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView3" />
@@ -65,7 +67,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="10dp"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="14dp"
         android:text="@string/green_textview"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/redTextView" />
@@ -82,8 +84,8 @@
 
     <SeekBar
         android:id="@+id/redSeekbar"
-        android:layout_width="302dp"
-        android:layout_height="13dp"
+        android:layout_width="297dp"
+        android:layout_height="19dp"
         android:layout_marginStart="16dp"
         android:layout_marginTop="8dp"
         android:max="255"
@@ -105,7 +107,7 @@
     <SeekBar
         android:id="@+id/blueSeekbar"
         android:layout_width="298dp"
-        android:layout_height="17dp"
+        android:layout_height="18dp"
         android:layout_marginStart="12dp"
         android:layout_marginTop="16dp"
         android:max="255"
@@ -117,10 +119,10 @@
         android:id="@+id/redValue"
         android:layout_width="51dp"
         android:layout_height="20dp"
-        android:layout_marginTop="6dp"
+        android:layout_marginTop="8dp"
         android:text="@string/redValue"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.36"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toEndOf="@+id/redSeekbar"
         app:layout_constraintTop_toBottomOf="@+id/textView3" />
 
@@ -128,8 +130,7 @@
         android:id="@+id/greenValue"
         android:layout_width="54dp"
         android:layout_height="24dp"
-        android:layout_marginStart="6dp"
-        android:layout_marginTop="8dp"
+        android:layout_marginTop="9dp"
         android:text="@string/blueValue"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/greenSeekbar"
@@ -139,7 +140,7 @@
         android:id="@+id/blueValue"
         android:layout_width="39dp"
         android:layout_height="18dp"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="10dp"
         android:text="@string/greenValue"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/blueSeekbar"
@@ -151,7 +152,9 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="42dp"
         android:layout_marginTop="24dp"
+        android:backgroundTint="#FFFFFF"
         android:text="@string/white_button"
+        android:textColor="#000000"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/blueTextView" />
 
@@ -161,6 +164,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="24dp"
         android:layout_marginTop="24dp"
+        android:backgroundTint="#000000"
         android:text="@string/black_button"
         app:layout_constraintStart_toEndOf="@+id/white_button"
         app:layout_constraintTop_toBottomOf="@+id/blueTextView" />
@@ -171,14 +175,15 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="24dp"
         android:layout_marginTop="24dp"
+        android:backgroundTint="#0000FF"
         android:text="@string/blue_button"
         app:layout_constraintStart_toEndOf="@+id/black_button"
         app:layout_constraintTop_toBottomOf="@+id/blueTextView" />
 
     <Button
         android:id="@+id/reset_button"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
+        android:layout_width="375dp"
+        android:layout_height="42dp"
         android:layout_marginStart="16dp"
         android:layout_marginTop="16dp"
         android:layout_marginEnd="16dp"
