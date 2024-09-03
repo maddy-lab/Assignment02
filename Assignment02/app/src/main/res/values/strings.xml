@@ -13,6 +13,6 @@
     <string name="redValue">64\n</string>
     <string name="blueValue">128</string>
     <string name="greenValue">0</string>
-    <string name="rgbValue">(64, 128, 0)</string>
-    <string name="HEX_value">#408000</string>
+    <string name="rgbValue"></string>
+    <string name="HEX_value"></string>
 </resources>
